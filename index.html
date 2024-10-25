@@ -9,7 +9,21 @@
 </head>
 <body>
     <h1 class="text-center mt-4 titulo" style="font-weight:bold;">Cadastro de Produto</h1>
-    
+    <form class="container mt-5 w-50">
+        <div class="mb-3">
+            <label for="produto" class="form-label">Nome do Produto</label>
+            <input type="text" class="form-control" id="produto" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="quantidade" class="form-label">Quantidade</label>
+            <input type="number" class="form-control" id="quantidade" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="preco" class="form-label">Preço Unitário</label>
+            <input type="number" class="form-control" id="preco" aria-describedby="emailHelp">
+        </div>
+        <button type="button" class="btn btn-danger mt-4 " id="cadastrarButton">Cadastrar</button>
+    </form>
     <div class="container mt-2">
         <div class="table-responsive mt-5">
             <table class="table tabela_borda"id="tabela" style="display: none;">
